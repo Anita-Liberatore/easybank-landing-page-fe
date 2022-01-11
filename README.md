@@ -14,5 +14,5 @@ Welcome to this front-end coding challenge.
 
 This challenge is to build out this landing page and get it looking as close to the design as possible.
 
-This challeng is build using HTML, CSS, GRID, FLEXBOX, and Javascript.
+This challeng is build using HTML, CSS, CSS Grid, FLEXBOX, and Javascript.
 
