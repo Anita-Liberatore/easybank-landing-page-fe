@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Public Sans", sans-serif;
     color: #333;
     line-height: 1.6;
 }
@@ -62,4 +62,70 @@ a {
     border: 0;
     color: white;
     font-size: 18px;
+}
+
+/* Showcase */
+.showcase {
+    background-color: #fafafb;
+    padding: 8rem 3rem;
+    height: 600px;
+    position: relative;
+}
+
+.showcase h1 {
+    max-width: 500px;
+    font-size: 3rem;
+    color: #2d314d;
+    margin-top: 0;
+    line-height: 1.15;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.showcase p {
+    max-width: 450px;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.showcase .grid {
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+    overflow: visible;
+}
+
+/* Services */
+.services {
+    background-color: #f3f4f6;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.services-text h1 {
+    margin: auto;
+    font-size: 35px;
+    color: #2d314d;
+    line-height: 1.15;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.services-text p {
+    max-width: 650px;
+    font-size: 18px;
+    margin-bottom: 90px;
+    
+}
+
+.services .grid h3 {
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.services .grid p {
+    min-width: 225px;
+    font-size: 18px;
+
 }
