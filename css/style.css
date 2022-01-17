@@ -219,7 +219,7 @@ a {
   display: grid;
   -ms-grid-columns: 2fr 1fr 2fr 2fr;
   grid-template-columns: 2fr 1fr 2fr 2fr;
-  justify-items: start;
+  justify-items: center;
 }
 
 .copyright p {
@@ -261,4 +261,13 @@ a {
 
 .social a {
   margin: 3px;
+}
+
+.frontementor , .anitaliberatore{
+  outline: none;
+  color: #fff;
+}
+
+.my-links {
+  margin: 30px;
 }
