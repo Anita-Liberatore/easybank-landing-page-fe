@@ -110,7 +110,6 @@ a {
 }
 
 
-
 /* Services */
 .services {
   background-color: #f3f4f6;
@@ -199,33 +198,27 @@ a {
   text-align: center;
 }
 
-.social-row-one ul {
-  text-align: left;
-}
-
-.social-row-one li {
-  padding: 5px;
-}
-
-.social-row-two li {
-  padding: 5px;
-}
-
-.social-row-two ul {
-  text-align: left;
-}
 
 .footer-grid {
   display: grid;
   -ms-grid-columns: 2fr 1fr 2fr 2fr;
-  grid-template-columns: 2fr 1fr 2fr 2fr;
-  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "logo link1 link2 cta" "social links1 links2 cta";
 }
 
-.copyright p {
+.logo {
+  grid-area: logo;
+}
+
+.copyright {
+  text-align: end;
+}
+.copyright p  {
   font-size: 1rem;
   color: #9698a6;
   margin-top: 2rem;
+  grid-area: cta;
 }
 
 .btn-footer {
@@ -244,26 +237,30 @@ a {
   color: white;
   font-size: 18px;
   font-weight: bold;
-  margin-left: 70px;
 }
 
-.social-row-one a {
+.social-row-one a, li {
   color: #fff;
+  padding: 5px;
+  grid-area: link1;
 }
 
-.social-row-two a {
+.social-row-two a, li {
   color: #fff;
+  padding: 5px;
+  grid-area: link2;
 }
 
-.footer-grid .social {
-  margin-top: -35px;
+.social {
+  grid-area: social;
 }
 
 .social a {
   margin: 3px;
+  
 }
 
-.frontementor , .anitaliberatore{
+.frontementor{
   outline: none;
   color: #fff;
 }
