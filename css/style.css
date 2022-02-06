@@ -95,7 +95,7 @@ a {
     right: 0px;
     top: 0;
     width: 60%;
-    height: 156vh;
+    height: 156vw;
 }
 
 .showcase-img::after {
@@ -104,7 +104,7 @@ a {
     right: 0px;
     top: 0px;
     width: 60%;
-    height: 156vh;
+    height: 156vw;
     background: url(image-mockups.png) top -10rem right -10rem no-repeat;
     background-size: 50rem;
 }

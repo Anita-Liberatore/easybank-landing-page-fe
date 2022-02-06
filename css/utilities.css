@@ -7,7 +7,6 @@
 
 .flex {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100%;
 }
@@ -39,7 +38,6 @@
     cursor: pointer;
     border: 0;
     color: white;
-    font-size: 18px;
     font-weight: 600;
   }
   
