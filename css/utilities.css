@@ -43,6 +43,9 @@
     font-weight: 600;
   }
   
+  .btn:hover {
+    box-shadow: inset 0px 10px 205px 9px rgb(255 255 255 / 65%);
+}
 
 .text-center {
     text-align: center;
