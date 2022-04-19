@@ -43,8 +43,55 @@
         overflow: hidden;
     }
 
+    .btn {
+        top: -20px;
+    }
+
+    .hide-desktop {
+        display: flex;
+    }
+
     .hide-mobile {
         display: none;
+    }
+
+    .page-links-mobile.show {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .page-links-mobile a:hover {
+        border-bottom: 3px #31d35c solid;
+        font-family: "Public Sans", sans-serif;
+        color: #2a2a2c;
+        font-weight: 800;
+    }
+
+    .page-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .hamburger.show .open{
+        display: none;
+    }
+    .hamburger.show .close{
+        display: block;
+    }
+
+    .nav-menu-links {
+        display: none;
+    }
+
+    .nav-menu-links {
+        flex-direction: column;
     }
     
     body {
@@ -65,6 +112,10 @@
     .showcase-form {
         justify-self: center;
         margin: auto;
+    }
+
+    .showcase-text {
+        margin-top: 290px;
     }
 
     .showcase-img-desktop {
@@ -100,6 +151,66 @@
         overflow: hidden;
     }
 
+    .hide-desktop {
+        display: flex;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .btn-outline {
+        display: block;
+        text-align: center;
+    }
+
+    .page-links-mobile.show {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .page-links-mobile a:hover {
+        border-bottom: 3px #31d35c solid;
+        font-family: "Public Sans", sans-serif;
+        color: #2a2a2c;
+        font-weight: 800;
+    }
+
+    .page-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .hamburger.show .open{
+        display: none;
+    }
+    .hamburger.show .close{
+        display: block;
+    }
+
+    .nav-menu-links {
+        display: none;
+    }
+
+    .nav-menu-links {
+        flex-direction: column;
+    }
+
+    .nav-link{
+        color: var(--primary-dark-blue);
+    }
+    
     body {
         max-width: 500px;
     }

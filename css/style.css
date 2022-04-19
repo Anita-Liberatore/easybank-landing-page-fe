@@ -12,6 +12,7 @@ body {
   font-family: "Public Sans", sans-serif;
   color: #333;
   line-height: 1.6;
+  min-height: 100vh;
 }
 
 ul {
@@ -24,6 +25,22 @@ a {
 }
 
 /* Navbar */
+.hamburger {
+  display: none;
+}
+
+.page-links-mobile {
+  display: none;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+.close{
+  display: none;
+}
+
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
@@ -144,6 +161,7 @@ a {
   background-color: #fafafb;
   padding-top: 100px;
   text-align: left;
+  padding: 58px 40px;
 }
 
 .article-text h1 {
@@ -196,6 +214,7 @@ a {
   color: white;
   padding: 3rem;
   text-align: center;
+  width: 100%;
 }
 
 
